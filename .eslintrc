@@ -1,0 +1,14 @@
+{
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "plugins": [
+        "babel"
+    ],
+    "env": {
+        "browser": true,
+        "node": true,
+    },
+    "rules": {
+        "no-console": "off"
+    }
+}
